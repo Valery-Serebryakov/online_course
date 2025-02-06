@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Events</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250206171731">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="92" data-scroll-show class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__column">
+						<a href="home.html" class="header__logo">
+							<img src="img/header/logo.svg" alt="logo">
+						</a>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item"><a class="menu__link" href="about-us.html">О нас</a></li>
+									<li class="menu__item"><a class="menu__link" href="courses.html">Курсы</a></li>
+									<li class="menu__item"><a class="menu__link" href="events.html">Мероприятия</a></li>
+									<li class="menu__item"><a class="menu__link" href="blog.html">Блог</a></li>
+									<li class="menu__item"><a class="menu__link" href="contacts.html">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="header__column header__column_modified">
+						<a data-da=".menu__body,590.98,1" href="#" class="header__button button button_bg">Консультация</a>
+						<div data-da=".menu__body,400.98,2" class="header__authorization">
+							<a href="#" data-popup=".log-in-popup" class="header__log-in">Войти</a>
+							<a href="#" data-popup=".sign-up-popup" class="header__register">Регистрация</a>
+						</div>
+						<button type="button" class="header__icon icon-menu"><span></span></button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="all-our-events">
+				<div class="all-our-events__container">
+					<div class="all-our-events__titles titles">
+						<div class="titles__subtitle">Наши мероприятия</div>
+						<h2 class="titles__title">Лекции, семинары и мастер-классы</h2>
+					</div>
+					<div class="all-our-events__item catalog">
+						<div data-one-select class="catalog__left">
+							<div class="catalog__item">
+								<div class="catalog__label">Категория</div>
+								<select name="form[]" class="catalog__select">
+									<option value="1" selected>все темы</option>
+									<option value="2">все темы 1</option>
+									<option value="3">все темы 2</option>
+									<option value="4">все темы 3</option>
+								</select>
+							</div>
+							<div class="catalog__item">
+								<div class="catalog__label">Сортировать по</div>
+								<select name="form[]" class="catalog__select">
+									<option value="1" selected>новейший</option>
+									<option value="2">новейший 1</option>
+									<option value="3">новейший 2</option>
+									<option value="4">новейший 3</option>
+								</select>
+							</div>
+							<div class="catalog__item catalog__item_mini">
+								<div class="catalog__label">Показывать</div>
+								<select data-class-modif="mini" name="form[]" class="catalog__select">
+									<option value="1" selected>9</option>
+									<option value="2">12</option>
+									<option value="3">15</option>
+								</select>
+								<div class="catalog__sublabel">эвентов</div>
+							</div>
+						</div>
+						<div class="catalog__right">
+							<div class="catalog__search">
+								<input autocomplete="off" type="text" name="form[]" placeholder="Мероприятие..." class="input input_modified">
+							</div>
+							<div class="catalog__view view-catalog">
+								<button id="icon-list" class="view-catalog__item view-catalog__item_active view-catalog__item_list"></button>
+								<button id="icon-grid" class="view-catalog__item view-catalog__item_grid"></button>
+							</div>
+						</div>
+					</div>
+					<div class="all-our-events__cards">
+						<div class="all-our-events__card card-events">
+							<div class="card-events__data">
+								<div class="card-events__number">05</div>
+								<div class="card-events__month">Август </div>
+								<div class="card-events__time">11:00 – 14:00</div>
+							</div>
+							<div class="card-events__content">
+								<div class="card-events__title">Формирование организационной структуры компании в условиях неопределенности.</div>
+								<div class="card-events__subtitle">Онлайн мастер-класс</div>
+							</div>
+							<a href="#" class="card-events__button button button_transparent button_mini">Подробнее</a>
+						</div>
+						<div class="all-our-events__card card-events">
+							<div class="card-events__data">
+								<div class="card-events__number">24</div>
+								<div class="card-events__month">Июль</div>
+								<div class="card-events__time">11:00 – 12:30</div>
+							</div>
+							<div class="card-events__content">
+								<div class="card-events__title">Создание отдела обслуживания клиентов. Лучшие практики.</div>
+								<div class="card-events__subtitle">Онлайн лекция</div>
+							</div>
+							<a href="#" class="card-events__button button button_transparent button_mini">Подробнее</a>
+						</div>
+						<div class="all-our-events__card card-events">
+							<div class="card-events__data">
+								<div class="card-events__number">16</div>
+								<div class="card-events__month">Июль</div>
+								<div class="card-events__time">10:00 – 13:00</div>
+							</div>
+							<div class="card-events__content">
+								<div class="card-events__title">Как применять методы спекулятивного проектирования на практике. Создание прототипов в мире.</div>
+								<div class="card-events__subtitle">Онлайн семинар</div>
+							</div>
+							<a href="#" class="card-events__button button button_transparent button_mini">Подробнее</a>
+						</div>
+						<div class="all-our-events__card card-events">
+							<div class="card-events__data">
+								<div class="card-events__number">10</div>
+								<div class="card-events__month">Июль</div>
+								<div class="card-events__time">9:00 – 14:00</div>
+							</div>
+							<div class="card-events__content">
+								<div class="card-events__title">Поиск и оценка: инструменты поиска и оценки кандидатов.</div>
+								<div class="card-events__subtitle">Онлайн семинар</div>
+							</div>
+							<a href="#" class="card-events__button button button_transparent button_mini">Подробнее</a>
+						</div>
+						<div class="all-our-events__card card-events">
+							<div class="card-events__data">
+								<div class="card-events__number">27</div>
+								<div class="card-events__month">Июнь</div>
+								<div class="card-events__time">15:00 – 19:00</div>
+							</div>
+							<div class="card-events__content">
+								<div class="card-events__title">Подключение к Microsoft Excel и Google Sheets, визуализация данных в Power BI.</div>
+								<div class="card-events__subtitle">Онлайн-мастер-класс</div>
+							</div>
+							<a href="#" class="card-events__button button button_transparent button_mini">Подробнее</a>
+						</div>
+						<div class="all-our-events__card card-events">
+							<div class="card-events__data">
+								<div class="card-events__number">15</div>
+								<div class="card-events__month">Июнь</div>
+								<div class="card-events__time">10:00 – 12:00</div>
+							</div>
+							<div class="card-events__content">
+								<div class="card-events__title">Маркетинг или хакинг роста: основные отличия и то, что нужно бизнесу.</div>
+								<div class="card-events__subtitle">Онлайн лекция</div>
+							</div>
+							<a href="#" class="card-events__button button button_transparent button_mini">Подробнее</a>
+						</div>
+						<div class="all-our-events__card card-events">
+							<div class="card-events__data">
+								<div class="card-events__number">02</div>
+								<div class="card-events__month">Июнь</div>
+								<div class="card-events__time">11:00 – 13:00</div>
+							</div>
+							<div class="card-events__content">
+								<div class="card-events__title">Как проинформировать клиента и представить свой дизайн, чтобы он был одобрен с первого показа.</div>
+								<div class="card-events__subtitle">Онлайн лекция</div>
+							</div>
+							<a href="#" class="card-events__button button button_transparent button_mini">Подробнее</a>
+						</div>
+						<div class="all-our-events__card card-events">
+							<div class="card-events__data">
+								<div class="card-events__number">29</div>
+								<div class="card-events__month">Май</div>
+								<div class="card-events__time">11:00 – 12:00</div>
+							</div>
+							<div class="card-events__content">
+								<div class="card-events__title">Кто такой менеджер проекта и хочу ли я быть им?</div>
+								<div class="card-events__subtitle">Онлайн лекция</div>
+							</div>
+							<a href="#" class="card-events__button button button_transparent button_mini">Подробнее</a>
+						</div>
+						<div class="all-our-events__card card-events">
+							<div class="card-events__data">
+								<div class="card-events__number">18</div>
+								<div class="card-events__month">Май</div>
+								<div class="card-events__time">10:00 – 12:00</div>
+							</div>
+							<div class="card-events__content">
+								<div class="card-events__title">Бизнес-страница компании как дополнительный инструмент поддержки объявления вакансий.</div>
+								<div class="card-events__subtitle">Онлайн лекция</div>
+							</div>
+							<a href="#" class="card-events__button button button_transparent button_mini">Подробнее</a>
+						</div>
+					</div>
+					<div class="all-our-events__pagination pagination">
+						<button class="pagination__arrow pagination__arrow_left pagination__arrow_disabled"></button>
+						<ul class="pagination__list">
+							<li class="pagination__item">
+								<a href="#" class="pagination__link pagination__link_active">1</a>
+							</li>
+							<li class="pagination__item">
+								<a href="#" class="pagination__link">2</a>
+							</li>
+							<li class="pagination__item">
+								<a href="#" class="pagination__link">3</a>
+							</li>
+							<li class="pagination__item">
+								<a href="#" class="pagination__link">4</a>
+							</li>
+						</ul>
+						<button class="pagination__arrow pagination__arrow_right"></и>
+					</div>
+				</div>
+			</section>
+			<section class="subscription">
+				<div class="subscription__container">
+					<div class="subscription__body">
+						<div class="subscription__titles titles">
+							<div class="titles__subtitle">Ничего не пропустите</div>
+							<h2 class="titles__title">Подпишитесь на объявления о школе Createx</h2>
+						</div>
+						<form action="#" class="subscription__form">
+							<div class="subscription__mail">
+								<input data-required="email" data-error="Пожалуйста, укажите корректные данные." type="text" name="email" placeholder="Email" class="subscription__input input">
+							</div>
+							<button type="submit" class="subscription__button button button_bg">подписаться</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__description">
+						<div class="footer__logo">
+							<img src="img/footer/logo.svg" alt="logo">
+						</div>
+						<div class="footer__info">
+							<p>Create является лидером в области онлайн-обучения. У нас есть множество курсов и программ от ведущих экспертов рынка. Мы предлагаем актуальные подходы к онлайн-обучению, стажировкам и трудоустройству в крупнейших компаниях страны.</p>
+						</div>
+						<div class="footer__icons icons-footer">
+							<a href="#" class="icons-footer__link _icon-facebook"></a>
+							<a href="#" class="icons-footer__link _icon-twitter"></a>
+							<a href="#" class="icons-footer__link _icon-youtube"></a>
+							<a href="#" class="icons-footer__link _icon-telegram"></a>
+							<a href="#" class="icons-footer__link _icon-instagram"></a>
+							<a href="#" class="icons-footer__link _icon-linked-In"></a>
+						</div>
+					</div>
+					<div data-spollers="479.98" data-one-spoller class="footer__columns spollers-footer">
+						<div class="spollers-footer__item">
+							<button type="button" data-spoller class="spollers-footer__title">КАРТА САЙТА</button>
+							<div class="spollers-footer__body">
+								<nav class="spoller-footer__menu menu-footer">
+									<ul class="menu-footer__list">
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">О нас</a></li>
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">Курсы</a></li>
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">События</a></li>
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">Блог</a></li>
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">Контакты</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="spollers-footer__item">
+							<button type="button" data-spoller class="spollers-footer__title">КУРСЫ</button>
+							<div class="spollers-footer__body">
+								<nav class="spoller-footer__menu menu-footer">
+									<ul class="menu-footer__list">
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">Маркетинг</a></li>
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">Менеджмент</a></li>
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">Управление персоналом</a></li>
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">Дизайн</a></li>
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">Разработка</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="spollers-footer__item spollers-footer__item_big">
+							<button type="button" data-spoller class="spollers-footer__title">СВЯЖИТЕСЬ С НАМИ</button>
+							<div class="spollers-footer__body">
+								<nav class="spoller-footer__menu menu-footer">
+									<ul class="menu-footer__list">
+										<li class="menu-footer__item menu-footer__item_tel"><a href="tel:+79230000000" class="menu-footer__link">+7 (923) 000-00-00</a></li>
+										<li class="menu-footer__item menu-footer__item_mail"><a href="mailto:hello@createx.com" class="menu-footer__link">hello@createx.com</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="footer__sign-up sign-up-footer">
+						<div class="sign-up-footer__title">ПОДПИШИТЕСЬ НА НАШУ РАССЫЛКУ</div>
+						<form action="#" class="sign-up-footer__form">
+							<div class="sign-up-footer__mail">
+								<input data-validate data-required="email" data-error="Пожалуйста, укажите корректные данные." class="sign-up-footer__input input" type="text" name="email" placeholder="Email">
+								<button type="submit" class="sign-up-footer__button"></button>
+							</div>
+						</form>
+						<div class="sign-up-footer__text">
+							<p>* Подпишитесь на нашу рассылку, чтобы получать сообщения и свежие обновления от агентства Create SEO Agency.</p>
+						</div>
+					</div>
+				</div>
+				<div class="footer__botom">
+					<div class="footer__all-rights">© Все права защищены. Сделано совместно с <span></span> творческой студией</div>
+					<a data-goto=".header" href="#" class="footer__go-top">НА ВЕРХ</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div aria-hidden="true" class="log-in-popup popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__body">
+					<h2 class="popup__title">Авторизация</h2>
+					<div class="popup__info">Войдите в свою учетную запись, используя адрес электронной почты и пароль, указанные при регистрации.</div>
+					<form action="#" class="popup__form">
+						<div class="popup__items">
+							<div class="popup__item item-popup">
+								<label for="signin-useremail" class="item-popup__label">Email</label>
+								<div class="item-popup__inner">
+									<input data-validate data-required="email" data-error="Пожалуйста, укажите корректные данные." type="text" name="signin-useremail" id="signin-useremail" placeholder="Введите email" class="item-popup__input input">
+								</div>
+							</div>
+							<div class="popup__item item-popup">
+								<label for="signin-userpassword" class="item-popup__label">Пароль</label>
+								<div class="item-popup__inner">
+									<input data-validate data-required data-error="Пожалуйста, укажите корректные данные." type="password" name="signin-userpassword" id="signin-userpassword" placeholder="Введите пароль" class="item-popup__input input">
+									<button class="item-popup__viewpass" type="button"></button>
+								</div>
+							</div>
+						</div>
+						<div class="popup__inner">
+							<div class="popup__checkbox checkbox">
+								<input id="signin-signed" class="checkbox__input" type="checkbox" value="1" name="signin-signed">
+								<label for="signin-signed" class="checkbox__label">Запомнить меня</label>
+							</div>
+							<a href="#" class="popup__forgot-password">Забыли пароль?</a>
+						</div>
+						<button type="submit" class="popup__button button button_bg button_mini">Войти</button>
+					</form>
+					<div class="popup__have-an-account">У вас нет учетной записи? <a href="#" data-popup=".sign-up-popup">Зарегистрироваться</a></div>
+					<div class="popup__bottom">
+						<div class="popup__alternative-account-options">Войдите в систему с помощью</div>
+						<div class="popup__icons">
+							<a href="#" class="popup__icon popup__icon_facebook"></a>
+							<a href="#" class="popup__icon popup__icon_google"></a>
+							<a href="#" class="popup__icon popup__icon_twitter"></a>
+							<a href="#" class="popup__icon popup__icon_inked-In"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div aria-hidden="true" class="sign-up-popup popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__body">
+					<h2 class="popup__title">Регистрация</h2>
+					<div class="popup__info">Регистрация занимает меньше минуты, но дает вам полный контроль над своим обучением.</div>
+					<form action="#" class="popup__form">
+						<div class="popup__items">
+							<div class="popup__item item-popup">
+								<label for="signup-username" class="item-popup__label">ФИО</label>
+								<div class="item-popup__inner">
+									<input data-validate data-required data-error="Пожалуйста, укажите корректные данные." type="text" name="signup-username" id="signup-username" placeholder="Введите полное имя" class="item-popup__input input">
+								</div>
+							</div>
+							<div class="popup__item item-popup">
+								<label for="signup-useremail" class="item-popup__label">Email</label>
+								<div class="item-popup__inner">
+									<input data-validate data-required="email" data-error="Пожалуйста, укажите корректные данные." type="text" name="signup-useremail" id="signup-useremail" placeholder="Введите email" class="item-popup__input input">
+								</div>
+							</div>
+							<div class="popup__item item-popup">
+								<label for="signup-userpassword" class="item-popup__label">Пароль</label>
+								<div class="item-popup__inner">
+									<input data-validate data-required data-error="Пожалуйста, укажите корректные данные." type="password" name="signup-userpassword" id="signup-userpassword" placeholder="Введите пароль" class="item-popup__input input">
+									<button class="item-popup__viewpass" type="button"></button>
+								</div>
+							</div>
+							<div class="popup__item item-popup">
+								<label for="signup-confirmrpassword" class="item-popup__label">Подтвердите пароль</label>
+								<div class="item-popup__inner">
+									<input data-validate data-required data-error="Пожалуйста, укажите корректные данные." type="password" name="signup-confirmrpassword" id="signup-confirmrpassword" placeholder="Введите пароль" class="item-popup__input input">
+									<button class="item-popup__viewpass" type="button"></button>
+								</div>
+							</div>
+						</div>
+						<div class="popup__inner">
+							<div class="popup__checkbox checkbox">
+								<input id="signup-remember" class="checkbox__input" type="checkbox" value="1" name="signup-remember">
+								<label for="signup-remember" class="checkbox__label">Запомнить меня</label>
+							</div>
+						</div>
+						<button type="submit" class="popup__button button button_bg button_mini">Зарегистрироваться</button>
+					</form>
+					<div class="popup__have-an-account">У вас уже есть учетная запись? <a href="#" data-popup=".log-in-popup">Авторизация</a></div>
+					<div class="popup__bottom">
+						<div class="popup__alternative-account-options">Войти в систему с помощью</div>
+						<div class="popup__icons">
+							<a href="#" class="popup__icon popup__icon_facebook"></a>
+							<a href="#" class="popup__icon popup__icon_google"></a>
+							<a href="#" class="popup__icon popup__icon_twitter"></a>
+							<a href="#" class="popup__icon popup__icon_inked-In"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20250206171731"></script>
+</body>
+
+</html>

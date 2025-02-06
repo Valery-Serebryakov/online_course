@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Blog</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250206171731">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="92" data-scroll-show class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__column">
+						<a href="home.html" class="header__logo">
+							<img src="img/header/logo.svg" alt="logo">
+						</a>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item"><a class="menu__link" href="about-us.html">О нас</a></li>
+									<li class="menu__item"><a class="menu__link" href="courses.html">Курсы</a></li>
+									<li class="menu__item"><a class="menu__link" href="events.html">Мероприятия</a></li>
+									<li class="menu__item"><a class="menu__link" href="blog.html">Блог</a></li>
+									<li class="menu__item"><a class="menu__link" href="contacts.html">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="header__column header__column_modified">
+						<a data-da=".menu__body,590.98,1" href="#" class="header__button button button_bg">Консультация</a>
+						<div data-da=".menu__body,400.98,2" class="header__authorization">
+							<a href="#" data-popup=".log-in-popup" class="header__log-in">Войти</a>
+							<a href="#" data-popup=".sign-up-popup" class="header__register">Регистрация</a>
+						</div>
+						<button type="button" class="header__icon icon-menu"><span></span></button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="blog">
+				<div class="blog__container">
+					<div class="blog__titles titles">
+						<div class="titles__subtitle">Наш блог</div>
+						<h2 class="titles__title">Школьный журнал Createx</h2>
+					</div>
+					<div class="blog__top">
+						<nav class="blog__menu menu-blog">
+							<ul class="menu-blog__list">
+								<li data-filterblog="all" id="blog-all" class="menu-blog__item menu-blog__item_active">Все</li>
+								<li data-filterblog="article" id="blog-article" class="menu-blog__item menu-blog__item_articles">Статьи</li>
+								<li data-filterblog="videos" id="blog-videos" class="menu-blog__item menu-blog__item_videos">Видео</li>
+								<li data-filterblog="podcasts" id="blog-podcasts" class="menu-blog__item menu-blog__item_podcasts">Подкасты</li>
+							</ul>
+						</nav>
+						<div class="blog__catalog">
+							<div class="blog__category">
+								<div class="blog__label">Категория</div>
+								<select name="form[]" class="blog__select">
+									<option value="1" selected>Все темы</option>
+									<option value="2">Все темы №2</option>
+									<option value="3">Все темы №3</option>
+									<option value="4">Все темы №4</option>
+								</select>
+							</div>
+							<div class="blog__search">
+								<input autocomplete="off" type="text" name="form[]" placeholder="Поиск..." class="input input_modified">
+							</div>
+						</div>
+					</div>
+					<div class="blog__body">
+						<article class="blog__card card-our-blog podcasts">
+							<a href="#" class="card-our-blog__image-ibg">
+								<picture><source srcset="img/our-blog/illustration1.webp" type="image/webp"><img src="img/our-blog/illustration1.jpg" alt="illustration"></picture>
+								<div class="card-our-blog__badge card-our-blog__badge_podcast">Подкаст</div>
+							</a>
+							<div class="card-our-blog__info">
+								<div class="card-our-blog__meta">
+									<div class="card-our-blog__specialization">Маркетинг</div>
+									<div class="card-our-blog__date">Сентябрь 4, 2020</div>
+									<div class="card-our-blog__time">36 мин</div>
+								</div>
+								<h6 class="card-our-blog__title">Что такое арбитраж трафика и действительно ли он приносит доход?</h6>
+								<div class="card-our-blog__text">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sit assumenda, officia quis autem sunt ex? Corrupti exercitationem, suscipit excepturi eaque qui fugit cupiditate magni nihil quam quod, perspiciatis nobis.</p>
+								</div>
+								<a href="#" class="card-our-blog__link">Перейти</a>
+							</div>
+						</article>
+						<article class="blog__card card-our-blog article">
+							<a href="#" class="card-our-blog__image-ibg">
+								<picture><source srcset="img/our-blog/laptop.webp" type="image/webp"><img src="img/our-blog/laptop.jpg" alt="image laptop"></picture>
+								<div class="card-our-blog__badge card-our-blog__badge_video">Статья</div>
+							</a>
+							<div class="card-our-blog__info">
+								<div class="card-our-blog__meta">
+									<div class="card-our-blog__specialization">Разработка</div>
+									<div class="card-our-blog__date">Сентябрь 1, 2020</div>
+									<div class="card-our-blog__time">36 мин</div>
+								</div>
+								<h6 class="card-our-blog__title">How to choose the first programming language for a beginner</h6>
+								<div class="card-our-blog__text">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eaque vitae maxime porro enim quo pariatur. Quae rerum officia dolores blanditiis nihil magni consequatur aliquam repellat. Quod dolore nulla natus?</p>
+								</div>
+								<a href="#" class="card-our-blog__link">Перейти</a>
+							</div>
+						</article>
+						<article class="blog__card card-our-blog videos">
+							<a href="#" class="card-our-blog__image-ibg">
+								<picture><source srcset="img/our-blog/illustration3.webp" type="image/webp"><img src="img/our-blog/illustration3.jpg" alt="illustration"></picture>
+								<div class="card-our-blog__badge card-our-blog__badge_article">Видео</div>
+							</a>
+							<div class="card-our-blog__info">
+								<div class="card-our-blog__meta">
+									<div class="card-our-blog__specialization">Дизайн</div>
+									<div class="card-our-blog__date">Август 8, 2020</div>
+								</div>
+								<h6 class="card-our-blog__title">Стоит ли вам выбирать творческую профессию, если вас привлекает творчество?</h6>
+								<div class="card-our-blog__text">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ex accusamus velit deleniti veritatis! Exercitationem eius perferendis ullam officiis, dicta ipsam fugit ea vel consequuntur optio similique, non rerum beatae?</p>
+								</div>
+								<a href="#" class="card-our-blog__link">Перейти</a>
+							</div>
+						</article>
+						<article id="card-max-big-blog" class="blog__card blog__card_max-big card-our-blog article">
+							<a id="image-card-max-big-blog" href="single-post.html" class="card-our-blog__image-ibg card-our-blog__image-ibg_max-big">
+								<picture><source srcset="img/our-blog/keyboard.webp" type="image/webp"><img src="img/our-blog/keyboard.jpg" alt="illustration"></picture>
+								<div class="card-our-blog__badge card-our-blog__badge_article">Перейти</div>
+							</a>
+							<div class="card-our-blog__info">
+								<div class="card-our-blog__meta">
+									<div class="card-our-blog__specialization">Управление персоналом</div>
+									<div class="card-our-blog__date">Август 3, 2020</div>
+								</div>
+								<h6 class="card-our-blog__title">Кадровая статистика: поиск работы, собеседования, наем и рекрутинг персонала</h6>
+								<div class="card-our-blog__text">
+									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit quia aut hic voluptatibus, repellendus quasi libero numquam officia in quod voluptates atque recusandae voluptatum optio amet dicta cumque, reprehenderit eveniet.</p>
+								</div>
+								<a href="single-post.html" class="card-our-blog__link">Перейти</a>
+							</div>
+						</article>
+						<article id="card-big-blog" class="blog__card blog__card_big card-our-blog videos">
+							<a id="image-card-big-blog" href="#" class="card-our-blog__image-ibg card-our-blog__image-ibg_big">
+								<picture><source srcset="img/our-blog/illustration2.webp" type="image/webp"><img src="img/our-blog/illustration2.jpg" alt="illustration"></picture>
+								<div class="card-our-blog__badge card-our-blog__badge_video">Видео</div>
+							</a>
+							<div class="card-our-blog__info">
+								<div class="card-our-blog__meta">
+									<div class="card-our-blog__specialization">Менеджмент</div>
+									<div class="card-our-blog__date">Август 25, 2020</div>
+									<div class="card-our-blog__time">45 мин</div>
+								</div>
+								<h6 class="card-our-blog__title">Что делать и к кому обратиться, если вы хотите получить отзыв о продукте</h6>
+								<div class="card-our-blog__text">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab animi sed quo velit eos voluptas impedit voluptates quis? Vitae consectetur odio officiis natus minima sequi, dignissimos assumenda provident? Architecto, nobis.</p>
+								</div>
+								<a href="#" class="card-our-blog__link">Перейти</a>
+							</div>
+						</article>
+						<article class="blog__card card-our-blog podcasts">
+							<a href="#" class="card-our-blog__image-ibg">
+								<picture><source srcset="img/our-blog/illustration4.webp" type="image/webp"><img src="img/our-blog/illustration4.jpg" alt="illustration"></picture>
+								<div class="card-our-blog__badge card-our-blog__badge_podcast">Подкаст</div>
+							</a>
+							<div class="card-our-blog__info">
+								<div class="card-our-blog__meta">
+									<div class="card-our-blog__specialization">Дизайн</div>
+									<div class="card-our-blog__date">Июль 28, 2020</div>
+									<div class="card-our-blog__time">36 мин</div>
+								</div>
+								<h6 class="card-our-blog__title">Что такое цветовые профили и как они работают в графическом дизайне</h6>
+								<div class="card-our-blog__text">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam qui, rerum veniam temporibus ratione nemo maiores sapiente impedit quisquam magni quis illum, eligendi quos earum autem ullam praesentium, maxime incidunt!</p>
+								</div>
+								<a href="#" class="card-our-blog__link">Перейти</a>
+							</div>
+						</article>
+						<article class="blog__card card-our-blog videos">
+							<a href="#" class="card-our-blog__image-ibg">
+								<picture><source srcset="img/our-blog/illustration5.webp" type="image/webp"><img src="img/our-blog/illustration5.jpg" alt="illustration"></picture>
+								<div class="card-our-blog__badge card-our-blog__badge_video">Видео</div>
+							</a>
+							<div class="card-our-blog__info">
+								<div class="card-our-blog__meta">
+									<div class="card-our-blog__specialization">Менеджмент</div>
+									<div class="card-our-blog__date">Июль 15, 2020</div>
+									<div class="card-our-blog__time">45 мин</div>
+								</div>
+								<h6 class="card-our-blog__title">Стартап: как создать команду, которая проживет дольше года</h6>
+								<div class="card-our-blog__text">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fugit molestias illo fugiat deleniti. Nam, at atque earum minus quia vero cupiditate aut voluptatibus nesciunt officiis natus quisquam libero ipsam.</p>
+								</div>
+								<a href="#" class="card-our-blog__link">Перейти</a>
+							</div>
+						</article>
+						<article class="blog__card card-our-blog article">
+							<a href="#" class="card-our-blog__image-ibg">
+								<picture><source srcset="img/our-blog/schreibmaschine.webp" type="image/webp"><img src="img/our-blog/schreibmaschine.jpg" alt="illustration"></picture>
+								<div class="card-our-blog__badge card-our-blog__badge_article">Статья</div>
+							</a>
+							<div class="card-our-blog__info">
+								<div class="card-our-blog__meta">
+									<div class="card-our-blog__specialization">Маркетинг</div>
+									<div class="card-our-blog__date">Июль 9, 2020</div>
+								</div>
+								<h6 class="card-our-blog__title">Как заставить клиентов полюбить ваш бизнес с самого начала</h6>
+								<div class="card-our-blog__text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati culpa voluptate aut deleniti dolores voluptatum, architecto, eaque deserunt enim nulla laborum quia vitae magnam nisi, sed cumque distinctio quos debitis.</p>
+								</div>
+								<a href="#" class="card-our-blog__link">Перейти</a>
+							</div>
+						</article>
+					</div>
+					<div class="blog__pagination pagination">
+						<button class="pagination__arrow pagination__arrow_left pagination__arrow_disabled"></button>
+						<ul class="pagination__list">
+							<li class="pagination__item">
+								<a href="#" class="pagination__link pagination__link_active">1</a>
+							</li>
+							<li class="pagination__item">
+								<a href="#" class="pagination__link">2</a>
+							</li>
+							<li class="pagination__item">
+								<a href="#" class="pagination__link">3</a>
+							</li>
+							<li class="pagination__item">
+								<a href="#" class="pagination__link">4</a>
+							</li>
+						</ul>
+						<button class="pagination__arrow pagination__arrow_right"></и>
+					</div>
+				</div>
+			</section>
+			<section class="subscribe-newsletter subscribe-newsletter_modified">
+				<div class="subscribe-newsletter__container">
+					<div class="subscribe-newsletter__image">
+						<picture><source srcset="img/single-post/illustration.webp" type="image/webp"><img src="img/single-post/illustration.png" alt="illustration"></picture>
+					</div>
+					<div class="subscribe-newsletter__content">
+						<h3 class="subscribe-newsletter__title">Не хотите пропустить лучшие предложения? Подпишитесь на нашу рассылку новостей!</h3>
+						<form action="#" class="subscribe-newsletter__form">
+							<div class="subscribe-newsletter__inner">
+								<div class="subscribe-newsletter__email">
+									<input data-required="email" data-error="Пожалуйста, укажите корректные данные." placeholder="Email" name="useremail" type="text" class="subscribe-newsletter__input input">
+								</div>
+								<button type="submit" class="subscribe-newsletter__button button button_bg">Подписаться</button>
+							</div>
+							<div class="subscribe-newsletter__checkbox checkbox">
+								<input id="checkbox-subscribe" data-error="Error" type="checkbox" value="" name="form[]" class="checkbox__input">
+								<label for="checkbox-subscribe" class="checkbox__label"><span class="checkbox__text">Я согласен получать сообщения от онлайн-школы Createx</span></label>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__description">
+						<div class="footer__logo">
+							<img src="img/footer/logo.svg" alt="logo">
+						</div>
+						<div class="footer__info">
+							<p>Create является лидером в области онлайн-обучения. У нас есть множество курсов и программ от ведущих экспертов рынка. Мы предлагаем актуальные подходы к онлайн-обучению, стажировкам и трудоустройству в крупнейших компаниях страны.</p>
+						</div>
+						<div class="footer__icons icons-footer">
+							<a href="#" class="icons-footer__link _icon-facebook"></a>
+							<a href="#" class="icons-footer__link _icon-twitter"></a>
+							<a href="#" class="icons-footer__link _icon-youtube"></a>
+							<a href="#" class="icons-footer__link _icon-telegram"></a>
+							<a href="#" class="icons-footer__link _icon-instagram"></a>
+							<a href="#" class="icons-footer__link _icon-linked-In"></a>
+						</div>
+					</div>
+					<div data-spollers="479.98" data-one-spoller class="footer__columns spollers-footer">
+						<div class="spollers-footer__item">
+							<button type="button" data-spoller class="spollers-footer__title">КАРТА САЙТА</button>
+							<div class="spollers-footer__body">
+								<nav class="spoller-footer__menu menu-footer">
+									<ul class="menu-footer__list">
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">О нас</a></li>
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">Курсы</a></li>
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">События</a></li>
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">Блог</a></li>
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">Контакты</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="spollers-footer__item">
+							<button type="button" data-spoller class="spollers-footer__title">КУРСЫ</button>
+							<div class="spollers-footer__body">
+								<nav class="spoller-footer__menu menu-footer">
+									<ul class="menu-footer__list">
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">Маркетинг</a></li>
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">Менеджмент</a></li>
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">Управление персоналом</a></li>
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">Дизайн</a></li>
+										<li class="menu-footer__item"><a href="#" class="menu-footer__link">Разработка</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="spollers-footer__item spollers-footer__item_big">
+							<button type="button" data-spoller class="spollers-footer__title">СВЯЖИТЕСЬ С НАМИ</button>
+							<div class="spollers-footer__body">
+								<nav class="spoller-footer__menu menu-footer">
+									<ul class="menu-footer__list">
+										<li class="menu-footer__item menu-footer__item_tel"><a href="tel:+79230000000" class="menu-footer__link">+7 (923) 000-00-00</a></li>
+										<li class="menu-footer__item menu-footer__item_mail"><a href="mailto:hello@createx.com" class="menu-footer__link">hello@createx.com</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="footer__sign-up sign-up-footer">
+						<div class="sign-up-footer__title">ПОДПИШИТЕСЬ НА НАШУ РАССЫЛКУ</div>
+						<form action="#" class="sign-up-footer__form">
+							<div class="sign-up-footer__mail">
+								<input data-validate data-required="email" data-error="Пожалуйста, укажите корректные данные." class="sign-up-footer__input input" type="text" name="email" placeholder="Email">
+								<button type="submit" class="sign-up-footer__button"></button>
+							</div>
+						</form>
+						<div class="sign-up-footer__text">
+							<p>* Подпишитесь на нашу рассылку, чтобы получать сообщения и свежие обновления от агентства Create SEO Agency.</p>
+						</div>
+					</div>
+				</div>
+				<div class="footer__botom">
+					<div class="footer__all-rights">© Все права защищены. Сделано совместно с <span></span> творческой студией</div>
+					<a data-goto=".header" href="#" class="footer__go-top">НА ВЕРХ</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div aria-hidden="true" class="log-in-popup popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__body">
+					<h2 class="popup__title">Авторизация</h2>
+					<div class="popup__info">Войдите в свою учетную запись, используя адрес электронной почты и пароль, указанные при регистрации.</div>
+					<form action="#" class="popup__form">
+						<div class="popup__items">
+							<div class="popup__item item-popup">
+								<label for="signin-useremail" class="item-popup__label">Email</label>
+								<div class="item-popup__inner">
+									<input data-validate data-required="email" data-error="Пожалуйста, укажите корректные данные." type="text" name="signin-useremail" id="signin-useremail" placeholder="Введите email" class="item-popup__input input">
+								</div>
+							</div>
+							<div class="popup__item item-popup">
+								<label for="signin-userpassword" class="item-popup__label">Пароль</label>
+								<div class="item-popup__inner">
+									<input data-validate data-required data-error="Пожалуйста, укажите корректные данные." type="password" name="signin-userpassword" id="signin-userpassword" placeholder="Введите пароль" class="item-popup__input input">
+									<button class="item-popup__viewpass" type="button"></button>
+								</div>
+							</div>
+						</div>
+						<div class="popup__inner">
+							<div class="popup__checkbox checkbox">
+								<input id="signin-signed" class="checkbox__input" type="checkbox" value="1" name="signin-signed">
+								<label for="signin-signed" class="checkbox__label">Запомнить меня</label>
+							</div>
+							<a href="#" class="popup__forgot-password">Забыли пароль?</a>
+						</div>
+						<button type="submit" class="popup__button button button_bg button_mini">Войти</button>
+					</form>
+					<div class="popup__have-an-account">У вас нет учетной записи? <a href="#" data-popup=".sign-up-popup">Зарегистрироваться</a></div>
+					<div class="popup__bottom">
+						<div class="popup__alternative-account-options">Войдите в систему с помощью</div>
+						<div class="popup__icons">
+							<a href="#" class="popup__icon popup__icon_facebook"></a>
+							<a href="#" class="popup__icon popup__icon_google"></a>
+							<a href="#" class="popup__icon popup__icon_twitter"></a>
+							<a href="#" class="popup__icon popup__icon_inked-In"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div aria-hidden="true" class="sign-up-popup popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__body">
+					<h2 class="popup__title">Регистрация</h2>
+					<div class="popup__info">Регистрация занимает меньше минуты, но дает вам полный контроль над своим обучением.</div>
+					<form action="#" class="popup__form">
+						<div class="popup__items">
+							<div class="popup__item item-popup">
+								<label for="signup-username" class="item-popup__label">ФИО</label>
+								<div class="item-popup__inner">
+									<input data-validate data-required data-error="Пожалуйста, укажите корректные данные." type="text" name="signup-username" id="signup-username" placeholder="Введите полное имя" class="item-popup__input input">
+								</div>
+							</div>
+							<div class="popup__item item-popup">
+								<label for="signup-useremail" class="item-popup__label">Email</label>
+								<div class="item-popup__inner">
+									<input data-validate data-required="email" data-error="Пожалуйста, укажите корректные данные." type="text" name="signup-useremail" id="signup-useremail" placeholder="Введите email" class="item-popup__input input">
+								</div>
+							</div>
+							<div class="popup__item item-popup">
+								<label for="signup-userpassword" class="item-popup__label">Пароль</label>
+								<div class="item-popup__inner">
+									<input data-validate data-required data-error="Пожалуйста, укажите корректные данные." type="password" name="signup-userpassword" id="signup-userpassword" placeholder="Введите пароль" class="item-popup__input input">
+									<button class="item-popup__viewpass" type="button"></button>
+								</div>
+							</div>
+							<div class="popup__item item-popup">
+								<label for="signup-confirmrpassword" class="item-popup__label">Подтвердите пароль</label>
+								<div class="item-popup__inner">
+									<input data-validate data-required data-error="Пожалуйста, укажите корректные данные." type="password" name="signup-confirmrpassword" id="signup-confirmrpassword" placeholder="Введите пароль" class="item-popup__input input">
+									<button class="item-popup__viewpass" type="button"></button>
+								</div>
+							</div>
+						</div>
+						<div class="popup__inner">
+							<div class="popup__checkbox checkbox">
+								<input id="signup-remember" class="checkbox__input" type="checkbox" value="1" name="signup-remember">
+								<label for="signup-remember" class="checkbox__label">Запомнить меня</label>
+							</div>
+						</div>
+						<button type="submit" class="popup__button button button_bg button_mini">Зарегистрироваться</button>
+					</form>
+					<div class="popup__have-an-account">У вас уже есть учетная запись? <a href="#" data-popup=".log-in-popup">Авторизация</a></div>
+					<div class="popup__bottom">
+						<div class="popup__alternative-account-options">Войти в систему с помощью</div>
+						<div class="popup__icons">
+							<a href="#" class="popup__icon popup__icon_facebook"></a>
+							<a href="#" class="popup__icon popup__icon_google"></a>
+							<a href="#" class="popup__icon popup__icon_twitter"></a>
+							<a href="#" class="popup__icon popup__icon_inked-In"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20250206171731"></script>
+</body>
+
+</html>
